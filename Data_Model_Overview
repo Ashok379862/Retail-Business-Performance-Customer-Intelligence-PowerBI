@@ -1,0 +1,10 @@
+Data Model Summary:
+
+- Fact_Sales: Transaction-level sales and profit data
+- Dim_Date: Calendar table for time intelligence
+- Dim_Customers: Customer attributes and segmentation
+- Dim_Products: Product and category details
+- Dim_Geography: Regional and location-based attributes
+
+Schema Type: Star Schema
+Relationships: One-to-many from dimensions to fact table
